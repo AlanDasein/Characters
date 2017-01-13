@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+    <title>
+        Bienvenido a la Fábrica de personajes, un programa ideado para ayudar a escritores, dramaturgos y guionistas a encontrar inspiración.
+    </title>
+    <description>
+        La Fábrica de personajes es un programa pensado para asistir a profesionales y aficionados en el proceso creativo de desarrollar obras literarias y dramatúrgicas. El acercamiento que emplea para alcanzar dicho fin, consiste en crear al azar personajes que puedan servir de inspiración para construir una historia. Si te dedicas o piensas dedicarte a escribir, esta herramienta quizás te sea de utilidad y el comienzo de una interesante experiencia para ti.
+    </description>
+    <panel>
+        <title>Piensa en este programa como en un estudio para la conformación de personajes.</title>
+        <text>
+            Crea toda una galería de ellos escogiendo rasgos al azar con que dotarlos, sexo, edad, apariencia física, virtudes y defectos, gustos y aversiones, circunstancias por las que atraviesan, etc. Una de los aspectos más críticos relacionados con la creación de una historia es concebir y darle cuerpo a los seres ficticios que la protagonizan. Este programa no pretende evitarte la molestia de pasar por esa fase, algo ni posible ni deseable, puesto que se estaría eliminando una parte sumamente valiosa del desarrollo creativo, pero sí se propone en cambio dar el empujoncito que desate toda tu fuerza imaginativa.
+        </text>
+        <button>
+            Comienza a crear personajes
+        </button>
+    </panel>
+    <body>
+        <title>¿Cómo funciona?</title>
+        <text>
+            <![CDATA[<b>CREACIÓN DE PERSONAJES:&nbsp;</b>Para crear un personaje basta con acceder a la <a1>página de creación de personajes</a> y seleccionar qué rasgos del mismo incluir en su construcción, así como configurar una serie de parámetros introducidos con el objetivo de generar diferentes tipos de resultados de acorde a las necesidades que cada cual presente. Se trata de un trámite bastante sencillo, pero en caso de hacerse difícil su comprensión, el sistema dispone además de un completo <a3>manual de ayuda</a> mediante el cual guiarse a través de todo el proceso.]]>
+        </text>
+        <text>
+            <![CDATA[<b>GALERÍA DE PERSONAJES:&nbsp;</b>Una vez creado el personaje, el mismo será agregado a una <a2>galería de personajes</a> donde se muestran las fichas de todos los personajes que hayan sido creados. Dichas fichas podrán ser modificadas de acorde a las preferencias de cada quien, por ejemplo dotando de nombre a los personajes o agregando notas al mismo. El programa cuenta con una razonablemente robusta base de datos de la que extraer los rasgos con los que moldear a los personajes creados y las combinaciones son practicamente infinitas, pero tambien se pueden dar resultados en algún grado incongruentes o simplemente indeseados, y de ser ese el caso es posible incorporar, suprimir y cambiar rasgos en las fichas.]]>
+        </text>
+        <text>
+            <![CDATA[<b>GUARDAR E IMPRIMIR:&nbsp;</b>Por último, ¿de qué vale armar toda una galería de personajes si no hay como conservarla? Durante el tiempo en que se esté usando el programa, es posible navegar por las distintas secciones sin perder ningún progreso en cuanto a los personajes creados, sus añadidos, modificaciones y demás, pero una vez cerrada la aplicación esto ya no será posible por más tiempo. Afortunadamente, guardar o imprimir la lista o galería de personajes y sus fichas puede ser llevado a cabo fácilmente tan solo seleccionando la opción de exportar la misma a un archivo <i>PDF</i>, el cual podrá ser guardado o impreso a conveniencia.]]>
+        </text>
+        <text>
+            <![CDATA[Y esto es, básicamente, todo. Disfruta de la herramienta y esperemos que te pueda ser de provecho. No olvides además usar la <a4>página de contacto</a> para transmitir cualquier duda o sugerencia que tengas o simplemente para dejar un comentario. En la misma también se encuentra una <i>ENCUESTA</i> o <i>SISTEMA DE VOTACIÓN</i> al que estás invitado a participar si te apetece dejar una valoración respecto a qué te ha parecido la experiencia de usar este medio. Tus observaciones serán altamente apreciadas.]]>
+        </text>
+    </body>
+    <stats>
+        <title>Datos de uso</title>
+        <item>Visitantes</item>
+        <item>Personajes Creados</item>
+        <item>Galerías exportadas</item>
+        <item>Personajes por visitante</item>
+        <item>Galerías por visitante</item>
+        <item>Personajes por galería exportada</item>
+    </stats>
+    <quotes>
+        <item>
+            <author>Ernest Hemingway</author>
+            <cite>Un escritor debe crear gente viva; personas no personajes. Un personaje es una caricatura.</cite>
+        </item>
+        <item>
+            <author>Ray Bradbury</author>
+            <cite>Creo mis personajes para que vivan su propia vida. En realidad, no soy yo quien los creo a ellos sino que son ellos quienes me crean a mí.</cite>
+        </item>
+        <item>
+            <author>Luigi Pirandello</author>
+            <cite>Los personajes no deben aparecer como fantasmas sino como realidades creadas, construcciones inmutables de la fantasía: más reales y más consistentes, en definitiva, que la voluble naturalidad de los actores.</cite>
+        </item>
+        <item>
+            <author>Antonio Skarmeta</author>
+            <cite>Un personaje es siempre un proyecto y no debe preexistir a la novela. Son los actos los que lo moldean, las opciones que toma.</cite>
+        </item>
+        <item>
+            <author>Rosa Montero</author>
+            <cite>Es el personaje el que te va enseñando cómo es. El novelista debe de ser lo suficientemente humilde como para dejar de lado su voluntad, digamos, y hacer caso a lo que el personaje le va contando de sí mismo.</cite>
+        </item>
+    </quotes>
+</content>

@@ -1,0 +1,357 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* global */
+
+html,body {height: 100%;}
+
+body {
+    background: #f5f5f5;
+    font-family: "Raleway";
+}
+
+section {min-height: 100%;}
+
+h1, h2 {margin-bottom: 3px;}
+h1 {font-size: 25px;  }
+h2 {font-size: 20px;}
+h3 {font-size: 18px;}
+
+table td:first-child {padding-right: 15px;}
+table td:last-child, input, select, textarea {width: 100%;}
+
+small {font-size: 95%;}
+
+label {font-weight: 600;}
+
+hr {margin: 3px 0;}
+
+blockquote {font-size: inherit;}
+
+input, select, textarea {
+    margin: 5px 0;
+    padding: 3px 6px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    outline: none;
+    font-family: "Arial";
+}
+
+textarea {
+    height: 70px;
+    min-height: 70px;
+    max-height: 70px;
+    max-width: 100%;
+}
+
+input:focus, select:focus, textarea:focus {border-color: transparent;}
+input:focus ~ .bar:before, input:focus ~ .bar:after,
+select:focus ~ .bar:before, select:focus ~ .bar:after,
+textarea:focus ~ .bar:before, textarea:focus ~ .bar:after {width: 50%;}
+
+select::-ms-expand {display: none;}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-border-radius: 0;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+/* elements */
+
+.logo {
+    display: inline-block;
+    margin: 8px;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    color: #dd845a;
+    text-transform: uppercase;
+}
+
+.logo:hover {
+    color: #b76a4e;
+    text-decoration: none;
+}
+
+.logo:hover > img {
+    transform : rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.logo img {
+    width: 32px;
+    -moz-transition: -moz-transform ease 0.6s;
+    -webkit-transition: -webkit-transform ease 0.6s;
+    -o-transition: -o-transform ease 0.6s;
+    -ms-transition: -ms-transform ease 0.6s;
+    transition: transform ease 0.6s;
+}
+
+.logo span {
+    position: relative;
+    top: 3px;
+}
+
+.page {
+    padding-top: 50px;
+    background: #fff;
+}
+
+.content {padding: 30px 0;}
+
+.content.main {line-height: 20px;}
+
+.content.main .icons {
+    width: 175px;
+    margin: 15px auto;
+}
+
+.content.main .icons img {width: 40px;}
+
+.content.main .title {line-height: 30px;}
+
+.content.main .caption {color: #888;}
+
+.content.main .info > div {
+    margin-bottom: 15px;
+    border-bottom: 2px dotted #aaa;
+}
+
+.content.main .info span:first-child {font-weight: bold;}
+
+.content.main b {font-weight: bold;}
+
+@media only screen and (max-width : 768px) {
+    .content.main .title {border: none;}
+}
+
+.line .box {
+    width: 60px;
+    padding: 16px 0;
+    background: #3e4956;
+    border: 5px solid #697888;
+    border-radius: 30px;
+    color: #eee;
+    font-size: 15px;
+}
+
+.line .spacer {width: 10px;}
+
+.line .holder {margin-top: 20px;}
+
+.line .block {
+    padding: 5px;
+    background: #eee;
+    overflow: auto;
+}
+
+.line .block .items {
+    padding: 5px 10px;
+    line-height: 20px;
+}
+
+.line .block .items .selector * {display: inline-block;}
+
+.line .block .items .selector {margin-top: 3px;}
+
+.line .block .items .selector label {width: 30px;}
+
+.line .block .items .selector span.clickable {
+    background: #eee;
+    color: #666;
+    width: 20px;
+    border-radius: 20px;
+}
+
+.line .block .items .selector span.clickable:hover {
+    background: #666;
+    color: #eee;
+}
+
+.line .items span {color: transparent;}
+
+.line .items .text-warning span {color: #f26e50;}
+
+.line .items .clickable:hover {opacity: .75;}
+
+.panel.block {position: relative;}
+
+.panel.block td {
+    padding: 10px;
+    font: 13px "Courier New";
+    border-bottom: 1px solid #dedede;
+}
+
+.panel.block td:first-child {
+    width: 100px;
+    font-weight: 600;
+}
+
+.panel.block tr:last-child td {border: none;}
+
+.panel.block div.text-warning {font-style: italic;}
+
+.panel.block div[contenteditable]:focus {outline: #ccc dashed 1px;}
+
+.chart {margin-bottom: 15px;}
+
+.board {padding: 10px;}
+
+.board .emblem {
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+
+.board .emblem b, .numeric {font-family: "Arial";}
+
+.group {
+    padding: 4px 0 4px 16px;
+    font-size: 13px;
+}
+
+.group li {
+    margin-bottom: 18px;
+    line-height: 17px;
+}
+
+.commands {margin-top: 10px;}
+
+.commands span {
+    margin: 3px 0;
+    padding: 3px 0;
+    border: 1px solid #ddd;
+    font-family: "Arial";
+}
+
+.commands span:hover {background: #eee;}
+
+.code {
+    width: 90%;
+    padding-left: 120px;
+    line-height: 18px;
+    word-break: break-all;
+    word-break: break-word;
+}
+
+/* common */
+
+.dismiss {text-decoration: line-through;}
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #eee;
+}
+
+.tag {
+    padding: 3px 6px;
+    border: 1px solid #aaa;
+    border-top: none;
+    text-align: left;
+}
+
+.tag:first-of-type {border-top: 1px solid #aaa !important;}
+
+.tag:nth-child(2n+2) {background: #eee;}
+
+.bar {
+    position: relative;
+    display: block;
+}
+
+.bar:before,
+.bar:after {
+    position: absolute;
+    bottom: 1px;
+    height: 1px;
+    width: 0;
+    background: #f26e50;
+    content: '';
+    transition: 0.2s ease all;
+}
+
+.bar:before {
+    left: 50%;
+}
+
+.bar:after {
+    right: 50%;
+}
+
+.stars {
+    display: inline-block;
+    position: relative;
+    width: 85px;
+    height: 15px;
+}
+
+.stars div {
+    background: #df9f14;
+    height: 100%;
+}
+
+.stars img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+label.score, span.score {
+    position: relative;
+    top: -2px;
+    left: 6px;
+}
+
+span.score {left: -6px;}
+span.score:last-of-type {top: -1px;}
+
+/* utilities */
+
+.clickable {cursor: pointer;}
+
+/* bootstrap override */
+
+.jumbotron {margin-bottom: 5px;}
+
+.jumbotron p {
+    margin: 20px 0;
+    font: inherit;
+}
+
+.panel {
+    margin: 0;
+    color: #666;
+}
+
+.panel-warning > .panel-heading {
+    border-color: #697888;
+    background: #474b4e;
+    color: #eee;
+}
+
+.close {
+    position: absolute;
+    top: 4px;
+    right: 7px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.dropdown-menu img {
+    margin-right: 10px;
+    width: 20px;
+}
+
+.text-warning {color: #f26e50;}
+
+.mark {font: 95% "Arial";}

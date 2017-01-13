@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+    <text>Para aprender a usar el creador de personajes y administrar los personajes creados y demás, revisa los siguientes tópicos.</text>
+    <text>VOLVER</text>
+    <topics>
+        <item>
+            <title>Crear personajes</title>
+            <text>
+                <![CDATA[
+                <p><label>Para crear un personaje:</label></p>
+                <blockquote>
+                    Indica qué rasgos del mismo serán seleccionados de forma aleatoria activando o desactivando la casilla <span>INCLUIR EN EL CREADOR</span> de la que dispone cada rasgo. No incluir un determinado rasgo para ser seleccionado de forma aleatoria no supone que dicho rasgo no estará disponible en la ficha del personaje una vez creado; solo significa que dicho rasgo se encontrará en blanco en la ficha. De hecho, para crear un personaje completamente en blanco, basta con desactivar las casillas de inclusión de cada rasgo.
+                </blockquote>
+                <blockquote>
+                    Indica cómo deben ser seleccionados los rasgos que disponen de una lista de opciones. Estos son rasgos como por ejemplo <span>SEXO</span>. Para que el rasgo sea seleccionado al azar entre todas las opciones activa la casilla <span>AL AZAR</span>. Para que sea seleccionado únicamente de entre un grupo de opciones, activa las opciones que deseas ver incluídas en el proceso de selección aleatoria. Si activas una sola opción de todas las disponibles, el rasgo será llenado con dicha opción en específico.
+                </blockquote>
+                <blockquote>
+                    Indica cómo deben ser seleccionados los rasgos que disponen de selectores numéricos. Estos son rasgos como por ejemplo <span>EDAD</span>. El primer selector indica el valor mínimo y el segundo el valor máximo del rango del cual seleccionar. Un valor mínimo de 3 y un valor máximo de 5 para un determinado rasgo, significa seleccionar de forma aleatoria entre 3 y 5 componentes de dicho rasgo para el personaje que será creado. En caso de tener ambos selectores, mínimo y máximo, el mismo valor, tal valor será el número exacto de componentes que se seleccionarán.
+                </blockquote>
+                <p>
+                    <label>Una vez que hayas configurado todo de acorde a tus necesidades, oprime el boton <span>CREAR PERSONAJE</span> para continuar. Un nuevo personaje será creado en base a los parámetros especificados y el mismo podrá ser visto de forma inmediata en la galería de personajes creados, desde la cual podrá ser además modificado a gusto (ver abajo).</label>
+                </p>
+                ]]>
+            </text>
+        </item>
+        <item>
+            <title>Administrar personajes</title>
+            <text>
+                <![CDATA[
+                <p><label>Para editar la ficha de un personaje</label></p>
+                <blockquote>
+                Haz click en el rasgo que deseas editar en la columna que contiene los detalles del mismo, tanto si se encuentra poblado como si se encuentra vacío y muestra el texto <span>SIN ESPECIFICAR</span> o similar. Usa el teclado para hacer las modificaciones pertinentes. Para que los cambios queden registrados, haz click fuera de la columna. <label>Es muy importante tener esto en cuenta ya que los cambios no se guardarán a menos que el rasgo que está siendo editado pierda el foco de edición.</label>
+                </blockquote>
+                <p><label>Para eliminar un personaje</label></p>
+                <blockquote>
+                Haz click en la pequeña <span>X</span> en la ezquina superior derecha de la ficha del personaje que deseas eliminar. Un mensaje aparecerá para confirmar que quieres proceder con la acción. A menos que se haya inciciado una nueva sesión de personajes, todas las fichas de personajes que hayan sido eliminadas, podrán recuperarse activando la opción correspondiente (ver abajo).
+                </blockquote>
+                 ]]>
+            </text>
+        </item>
+        <item>
+            <title>Administrar galería de personajes</title>
+            <text>
+                <![CDATA[
+                <p><label>Para recuperar los personajes eliminados</label></p>
+                <blockquote>
+                Haz click en la opción correspondiente localizada al centro del menu superior de la página. Un mensaje aparecerá para confirmar que quieres proceder con la acción. Todas las fichas de personajes que hayas eliminado con anterioridad serán recuperadas. Lamentablemente no es posible recuperar fichas de manera individual. Para recuperar una ficha en específico deberás recuperar todas y luego volver a eliminar las que no te interese conservar.
+                </blockquote>
+                <p><label>Para comenzar una nueva sesión de personajes</label></p>
+                <blockquote>
+                Haz click en la opción correspondiente localizada a la izquierda del menu superior de la página. Un mensaje aparecerá para confirmar que quieres proceder con la acción. Esta acción eliminará <span>PERMANENTEMENTE</span> todas las fichas de personajes que hayan sido creados en la presente sesión, lo mismo aquellas activas que aquellas previamente eliminadas de forma temporal. Una vez ejecutada, por tanto, es irreversible. <label>Asegúrate de que es esto exactamente lo que deseas hacer.</label>
+                </blockquote>
+                <p><label>Para guardar o imprimir la lista de personajes</label></p>
+                <blockquote>
+                Haz click en la opción correspondiente localizada a la derecha del menu superior de la página. Una nueva ventana o pestaña se abrirá y un documento <span>PDF</span> será creado con todas las fichas de los personajes, excepto aquellas que hayan sido eliminadas. El documento creado podrá ser guardado o impreso a conveniencia.
+                </blockquote>
+                 ]]>
+            </text>
+        </item>
+        <item>
+            <title>Listado de atributos de personajes</title>
+            <text>
+                A continuación se detallan por categorías los distintos atributos que han sido recopilados para ayudar en la creación aleatoria de personajes
+            </text>
+            <subtopics>
+                <item>Profesiones</item>
+                <item>Virtudes y defectos</item>
+                <item>Gustos, aversiones y miedos</item>
+                <item>Deseos</item>
+                <item>Circunstancias</item>
+            </subtopics>
+        </item>
+    </topics>
+</content>

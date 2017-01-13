@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+    <text>Selecciona cómo deseas que tu personaje sea creado con las opciones que hay disponibles debajo.</text>
+    <button>CREAR PERSONAJE</button>
+    <commonText>
+        <item>Al azar</item>
+        <item>Valor mínimo</item>
+        <item>Valor máximo</item>
+        <item>Incluir en el creador</item>
+    </commonText>
+</content>

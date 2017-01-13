@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+    <title>Fábrica de personajes</title>
+    <description>Creador de personajes aleatorios para escritores</description>
+    <languages>
+        <item>Español</item>
+    </languages>
+    <menu>
+        <item></item>
+        <item>Creador</item>
+        <item>Personajes</item>
+        <item>Ayuda</item>
+        <item>Contacto</item>
+    </menu>
+    <groupCategory>
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </groupCategory>
+    <links>
+        <item>En caso de duda, consulta el <![CDATA[<a>Manual de Ayuda</a>]]>.</item>
+    </links>
+    <alerts>
+        <item>Para enviar la encuesta debes responder todas las preguntas</item>
+        <item>No es posible enviar el mensaje porque no se ha escrito ningún mensaje</item>
+        <item>No es posible enviar el mensaje porque la pregunta anti spam no es correcta</item>
+        <item>Confirma que deseas continuar</item>
+    </alerts>
+    <modalButtons>
+        <item>Cerrar</item>
+        <item>Continuar</item>
+    </modalButtons>
+    <text>
+        <item>Idioma</item>
+    </text>
+</content>

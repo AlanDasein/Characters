@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+    <instructions>
+        <item>Inspecciona, edita y descarta cada personaje creado en la lista que se muestra a continuación, la cual además podrás guardar o imprimir.</item>
+        <item>Aún no has creado ningún personaje. Vuelve a esta página cuando hayas creado al menos uno.</item>
+    </instructions>
+    <labels>
+        <item>Nombre</item>
+        <item>Anotaciones</item>
+    </labels>
+    <defaultValues>
+        <item>Sin nombre</item>
+        <item>Sin anotaciones</item>
+        <item>Sin especificar</item>
+    </defaultValues>
+    <commands>
+        <item>Comenzar nueva sesión de personajes</item>
+        <item>Recuperar los personajes eliminados</item>
+        <item>Guardar o imprimir lista de personajes</item>
+    </commands>
+</content>
