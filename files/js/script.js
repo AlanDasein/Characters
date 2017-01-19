@@ -174,7 +174,7 @@ $(document).ready(function() {
             var self = $(this),
                 callback = function() {
                     var elm = self.parent().parent().parent(), spacer = elm.nextAll(".clearfix");
-                    callAjax("files/php/controllers/delete.php", {"id": self.attr("dt-item")}, "", function(res) {console.log(res);});
+                    callAjax("files/php/controllers/delete.php", {"id": self.attr("dt-item")});
                     spacer.remove();
                     elm.remove();
                     dom.win.modal("hide");
