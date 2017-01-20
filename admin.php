@@ -33,11 +33,17 @@ $content = array("common" => simplexml_load_file($path."_global.xml"), "specific
                 else window.location = 'about:blank';
               </script>";
     }
-    else echo "
-        REAL VISITORS: ".number_format((int)file_get_contents("files/inc/visitors.inc") - (int)$settings["fake_data"]["visitors"])."<br/>
-        REAL CHARACTERS: ".number_format((int)file_get_contents("files/inc/characters.inc") - (int)$settings["fake_data"]["characters"])."<br/>
-        REAL EXPORTS: ".number_format((int)file_get_contents("files/inc/exports.inc") - (int)$settings["fake_data"]["exports"])."<hr/>
-    ";
+    else {
+        $survey = Helper::getData($connection, array("table" => "gn_survey", "fields" => array("COUNT(*) as total")));
+        $contact = Helper::getData($connection, array("table" => "gn_contact", "fields" => array("COUNT(*) as total")));
+        echo "
+            REAL VISITORS: ".number_format((int)file_get_contents("files/inc/visitors.inc") - (int)$settings["fake_data"]["visitors"])."<br/>
+            REAL CHARACTERS: ".number_format((int)file_get_contents("files/inc/characters.inc") - (int)$settings["fake_data"]["characters"])."<br/>
+            REAL EXPORTS: ".number_format((int)file_get_contents("files/inc/exports.inc") - (int)$settings["fake_data"]["exports"])."<hr/>
+            SURVEYS TAKEN: ".number_format($survey[0]["total"] - $settings["fake_data"]["votes"])."<br/>
+            MESSAGES RECEIVED: ".number_format($contact[0]["total"])."<hr/>
+        ";
+    }
     ?>
 
 </body>

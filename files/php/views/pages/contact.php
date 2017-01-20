@@ -117,7 +117,7 @@
 
                         $index = 0;
 
-                        foreach($groups as $v) {echo "<script>console.log('".$v."');</script>";
+                        foreach($groups as $v) {
                             $aux = 0;
                             for($i = $index, $j = $index + $v;$i < $j;$i++) $aux += $results[0]["t".($i + 1)];
                             $results[0]["groups"][] = round(($aux / $v), 1);
